@@ -4,9 +4,9 @@ clear all;
 load mask;
 
 meth   = 'ezw';   % Method name
-wnames = {'haar', 'db1', 'sym2'};
+wnames = {'haar', 'db1', 'sym2', 'coif1', 'bior1.1', 'rbio1.1'};
 
-for i = 1:3
+for i = 1:6
   disp(char(wnames(i)));
   fprintf('CR BPP snr \n');
   % nbloop - number of loops
